@@ -1,73 +1,68 @@
-# Welcome to your Lovable project
+# 🚗 DriveEasy - Car Rental Website
 
-## Project info
+DriveEasy is a modern, responsive car rental web application built using **React** and **Tailwind CSS**. It allows users to explore available cars, make bookings, and manage reservations — all with a smooth and user-friendly interface.
 
-**URL**: https://lovable.dev/projects/22733622-c244-41a0-9bfc-9998601205d6
+## 🌐 Live Demo
 
-## How can I edit this code?
+Check out the live website here: https://drive-easy-nine.vercel.app/
 
-There are several ways of editing your application.
+## 🛠 Tech Stack
 
-**Use Lovable**
+- **React** – Frontend library
+- **Tailwind CSS** – Utility-first styling
+- **React Router** – Client-side routing
+- **LocalStorage** – Booking data persistence 
+- **Vercel** – Deployment platform
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/22733622-c244-41a0-9bfc-9998601205d6) and start prompting.
+## ✨ Features
 
-Changes made via Lovable will be committed automatically to this repo.
+- Browse and filter available cars
+- Book a car with pickup/drop-off locations and dates
+- View and manage your bookings
+- Cancel or update reservations
+- Responsive design for all devices
 
-**Use your preferred IDE**
+## 🚀 Getting Started
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+### 1. Clone the repository
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+`bash
+git clone https://github.com/krushal17/DriveEasy.git
+cd DriveEasy
 
-Follow these steps:
+2. Install dependencies
+bash
+npm install
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
+3. Run the development server
+bash
 npm run dev
-```
 
-**Edit a file directly in GitHub**
+4. Build for production
+bash
+npm run build
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+🗃 Data Persistence
+Since there's no backend, all booking data is saved in the browser's localStorage. This keeps user data persistent across sessions on the same device.
 
-**Use GitHub Codespaces**
+📦 Deployment
+This project is deployed with Vercel. Simply connect your GitHub repo to Vercel, and it handles the rest!
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
 
-## What technologies are used for this project?
+🎓 Project Info
+This project was built as part of a college design engineering project, aiming to simulate a fully functional international car rental platform.
 
-This project is built with:
+🤝 Contributing
+Contributions are welcome! Feel free to open issues or pull requests.
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+📄 License
+This project is open source and free to use under the MIT License.
 
-## How can I deploy this project?
 
-Simply open [Lovable](https://lovable.dev/projects/22733622-c244-41a0-9bfc-9998601205d6) and click on Share -> Publish.
+---
 
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+Let me know if you want me to:
+- Add your actual Vercel link
+- Add a license file
+- Drop in some screenshot sections  
+Anything else you need, I got you.
